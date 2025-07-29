@@ -18,6 +18,10 @@ export default {
 			}
 		},
 		extend: {
+			fontFamily: {
+				'montserrat': ['Montserrat', 'sans-serif'],
+				'open-sans': ['Open Sans', 'sans-serif'],
+			},
 			colors: {
 				border: 'hsl(var(--border))',
 				input: 'hsl(var(--input))',
@@ -31,6 +35,12 @@ export default {
 				secondary: {
 					DEFAULT: 'hsl(var(--secondary))',
 					foreground: 'hsl(var(--secondary-foreground))'
+				},
+				chess: {
+					green: '#2C5F2D',
+					brown: '#8B4513',
+					'light-gray': '#F4F4F4',
+					dark: '#4F4F4F'
 				},
 				destructive: {
 					DEFAULT: 'hsl(var(--destructive))',
