@@ -302,7 +302,7 @@ const Index = () => {
                     <div>
                       <h3 className="font-montserrat font-semibold text-lg mb-2">Адрес</h3>
                       <p className="font-open-sans text-gray-600">
-                        г. Москва, ул. Образования, д. 15<br/>
+                        г. Пермь, ул. Плеханова, д. 34а<br/>
                         2 этаж, кабинет 205
                       </p>
                     </div>
